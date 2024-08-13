@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 100%;
+}
+section{
+    width: 100%;
+    display: flex;
+}
+section div img{
+    width: 5rem;
+}
+section nav{
+    width: 99%;
+    display: flex;
+    justify-content:flex-end ;    
+}
+section nav ul{
+    width: 80%;
+    margin: 2rem;
+	display: flex;
+    justify-content: flex-end;
+	align-items:center;
+    list-style-type: none;
+}
+section nav ul li{ 
+    margin-left: 2rem;   
+}
+section nav ul li a{
+    text-decoration: none;
+    font-size: larger;
+}
+main{
+    width: 100%;
+}
+main img{
+    width: 5%;
+}
+footer{
+    background-color: rgba(135,52,199,255);
+    margin-top: 6rem;
+}
+footer figure{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+    padding: 1rem;
+}
+/* clases */
+.color{
+    background-color:rgba(135,52,199,255);
+}
+.white{
+    color: white;
+} 
