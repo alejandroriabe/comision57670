@@ -30,7 +30,8 @@ section nav ul {
 section nav ul li {
   margin-left: 2rem;
 }
-section nav ul li a {
+section nav ul li a:hover {
+  color: black;
   text-decoration: none;
   font-size: larger;
 }

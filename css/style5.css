@@ -9,6 +9,7 @@ html{
 section{
     width: 100%;
     display: flex;
+    position:fixed;
 }
 section div img{
     width: 5rem;
@@ -27,11 +28,14 @@ section nav ul{
     list-style-type: none;
 }
 section nav ul li{ 
+    text-decoration: none;
     margin-left: 2rem;   
 }
-section nav ul li a{
+section nav ul li a:hover{
+    color:black;
     text-decoration: none;
     font-size: larger;
+    
 } 
 footer{
     background-color: rgba(135,52,199,255);
