@@ -16,6 +16,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid black;
     
 }
 html{
@@ -116,15 +117,21 @@ html{
   }
 } 
 .main-galeria{
-  width: 99%;
-  margin: 10px;
   display: flex;
   justify-content: center;
-  div img{
-    width: 10rem;
-    height: 25rem
-  };
+  div .carousel-item{
+    
   }
+  .carousel-item img{
+    height: 50rem;
+  }
+  }
+  .main-servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
 
 .footer{
   width:100%;
